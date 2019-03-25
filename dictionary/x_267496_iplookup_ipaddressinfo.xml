@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="IPAddressInfo" max_length="40" name="x_267496_iplookup_ipaddressinfo" type="collection">
         <element label="City" max_length="40" name="city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" type="string"/>
         <element label="IP address" max_length="40" name="ip_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Postal" max_length="40" name="postal" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="region" type="string"/>
     </element>
 </database>
